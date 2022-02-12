@@ -49,8 +49,8 @@ body {
 	text-rendering : optimizeLegibility;
 	-webkit-font-smoothing : antialiased;
 	font-size: 19px;
-	background-color: #FEFEFE;
-	color: #04143A;
+	background-color: #000000;
+	color: #fff;
 }
 ol, ul {
 	list-style: none;
@@ -69,7 +69,7 @@ table {
 }
 
 p {
-	color: #15171a;
+	color: #fff;
 	font-size: 17;
 	line-height: 31px;
 }
@@ -213,6 +213,13 @@ h1.name {
 	cursor: pointer;
 }
 
+.text-white {
+	color: #fff
+}
+
+.text-gray {
+	color: #5B6A9A;
+}
 
 .skill-level {
 	display: inline-block;
@@ -314,7 +321,7 @@ li .line {
   left: 1%;
   font-size: 20px;
   font-weight: 600;
-  color: #04143A;
+  color: #fff;
 }
 li .point {
 	content: "";
